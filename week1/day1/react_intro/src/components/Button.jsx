@@ -1,3 +1,5 @@
+import "./Button.css";
+
 function Button() {
   return <button>click here</button>;
 }

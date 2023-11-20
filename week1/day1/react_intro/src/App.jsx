@@ -1,4 +1,5 @@
 //import spinner from "./assets/cat_spinner.gif";
+import "./App.css";
 import Greeting from "./components/Greeting";
 import Navbar from "./components/Navbar";
 import StudentCard from "./components/StudentCard";

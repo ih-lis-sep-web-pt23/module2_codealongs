@@ -9,3 +9,5 @@ This is the repo for all the codealongs done in class for module 2
 # N.P.M - Node Package Manager
 
 # Vite - Bundling tool to create a react application
+
+# Props - properties
