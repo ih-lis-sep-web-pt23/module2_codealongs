@@ -7,6 +7,10 @@ function MovieList() {
   const [show, setShow] = useState(true);
 
   const deleteMovie = id => {
+    const moviesCopy = movies.slice(0);
+    //const moviesCopy = [...movies]
+    moviesCopy.push("New movie");
+
     const filteredMovies = movies.filter(movie => id !== movie._id);
     setMovies(filteredMovies);
   };
