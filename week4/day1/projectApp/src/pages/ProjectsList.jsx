@@ -9,7 +9,7 @@ function ProjectsList() {
 
   const getProjects = async () => {
     try {
-      const response = await axios.get(`${API_URL}/projects?embed=tasks`);
+      const response = await axios.get(`${API_URL}/projects?_embed=tasks`);
       //console.log(response);
       setProjects(response.data);
     } catch (error) {
